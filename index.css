@@ -53,6 +53,10 @@ nav span {
   border: 1px solid #1a24fb;
   box-sizing: border-box;
 }
+.card-container .card .card-content {
+  padding-right: 15px;
+  padding-bottom: 25px;
+}
 .card-container .card .card-content h3 {
   font-size: 12px;
   letter-spacing: 0.2em;
@@ -65,7 +69,6 @@ nav span {
 }
 .card-container .card .card-content p {
   font-size: 16px;
-  padding-bottom: 25px;
   line-height: 1.4;
 }
 .card-container .card .card-content span {
