@@ -1,1 +1,105 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Overpass:wght@400;700&display=swap");/*# sourceMappingURL=index.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Overpass:wght@400;700&display=swap");
+* {
+  font-family: "Overpass", sans-serif;
+  color: #1a24fb;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 40px;
+  font-weight: 400px;
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #f8f7f3;
+  background-color: #1a24fb;
+  font-family: "Overpass", sans-serif;
+}
+nav span {
+  font-size: 24px;
+  color: #f8f7f3;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1280px;
+  margin: 100px auto;
+  font-family: "Montserrat", sans-serif;
+}
+.card-container .card {
+  position: relative;
+  margin: 50px 10px;
+  padding: 40px;
+  max-width: 385px;
+  min-height: 420px;
+  border: 1px solid #1a24fb;
+  box-sizing: border-box;
+}
+.card-container .card .card-content h3 {
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+.card-container .card .card-content h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 15px 0 25px;
+}
+.card-container .card .card-content p {
+  font-size: 16px;
+  padding-bottom: 25px;
+  line-height: 1.4;
+}
+.card-container .card .card-content span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 700;
+}
+.card-container .card button {
+  position: absolute;
+  margin: auto 0;
+  bottom: -30px;
+  left: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  height: 18px;
+  font-size: 14px;
+}
+.card-container .card button span {
+  font-size: 18px;
+}
+.card-container .card button:hover {
+  color: #f8f7f3;
+  background-color: #1a24fb;
+}
+.card-container .card button:hover span {
+  color: #f8f7f3;
+}/*# sourceMappingURL=index.css.map */
